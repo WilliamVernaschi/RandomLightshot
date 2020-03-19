@@ -8,7 +8,7 @@ urlCharacters = list()
 letters = ascii_lowercase
 goback = True
 while goback is True:
-    linkAmount = (input('How many links do you wants?'))
+    linkAmount = (input('How many URLs do you want?'))
     if linkAmount.isnumeric():
         break
     else:
